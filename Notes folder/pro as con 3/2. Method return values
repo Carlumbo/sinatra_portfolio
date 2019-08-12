@@ -1,0 +1,15 @@
+=being
+Implicit retrun = the last expression in a method defintion is its return value 
+its impied by being at the end 
+
+def a_method(a,b)
+  if a + b = 3
+    puts "Its 3 dog baby"
+  else 
+  end 
+  72
+end 
+
+a_method(1,2)
+
+This will say the puts, but also return the value of 72 in irb 

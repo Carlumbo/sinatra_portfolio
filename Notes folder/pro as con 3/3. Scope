@@ -1,0 +1,21 @@
+=begin 
+varible - name assoicated with data 
+      - dog = "poodle", age = 32
+sometimes you cant access data, because its not in scope 
+scopes exist in contect of time or place
+if you order food at applebees and wait, ask the waiter where your food is they will know because you ordered there. 
+if you ordered food at applebees and went accross the street to outback and asked a waiter there, they would not know.
+*** Global Scope 
+varibles assigned outside a method are global varibles
+anywhere in ruby can access this
+global varibles have $ signs as a symbol
+*** Local scope 
+local scope is only accessbile inside of the scope itself 
+usually contained inside of a method 
+ex 
+def my_ruby_method
+  puts local_varible
+end
+this local variable is contained
+you have to define that local_variable inside of the methoid def or it will raise an error 
+sometimes youll want to gloabally scope using the $varible allows it to cast its shawdow into all scopes

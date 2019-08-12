@@ -1,0 +1,43 @@
+***PROGRAMMING AS A CONVERSATION PART 3***
+=begin
+**************************************************
+A paragrah in writing is a collection of sentences
+designed of info transfer from speaker >> listener
+opening and closing sentences and paragraphs have function
+Code paragrpahs are functions, procedures, methods or subroutines
+comprised of expressions and statements
+make a sandwich  provides instructions as a commoand ie. get bread, pb , jelly
+varibles such as retrive_picture encompases if user_name == nil 
+this is an atomic activity, it implies actions to make the varible give a result 
+*** Abstraction is the name of the game
+meaning to pull away, we look at the larger details made of the small 
+ruby calls bundles of statement (paragraphs) methods
+***************************************************
+methods and arguements 
+=begin 
+rememeber you can define a variable inside of a method 
+when that varible is called on it will puts out whatever string with interpolation is insde of it
+then you have to call on that varible using puts varible_name and it will put that out
+so example is 
+=end 
+def outfit_choice(color,pants,head = "hat")
+  puts "What are you going to wear?"
+  outfit = "I am going to wear a #{color} shirt with my #{pants} along with a #{head}"
+  puts outfit
+  return outfit
+end 
+=begin
+inside def method 
+define variable 
+puts local_varible 
+return local_varible
+end 
+paramters are inside method defs 
+arguements are inside method calls out of the methdo def
+optional paramters/arguements are defiend like this 
+def method(parameter, optional_parameter= "whatever")
+  puts "string"
+  local_varible = "this #{parameter} and this #{optional_parameter}"
+  puts local_varible
+  return local_varible
+end 

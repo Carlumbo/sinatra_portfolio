@@ -1,0 +1,40 @@
+=begin 
+nil =  does not exist, or no comment, how could ruby know? even if it prints does it know?
+expressions always return values (1+1, 2/2, 3*3)
+statements usually do not 
+programming is structuring which expressions get evaluted and the order that happens
+sequence: what order the code runs in, build your sandwich before eating it
+Selection: how do we deviate from it? when given a default order? (if this then this)
+Repetition:  keep doing this until thisn condtion is met (looping)
+selection tools: if - do this upon this condtion
+selection tools: do must be enclosed with an ...end
+**********************************************************************************************
+first statements: puts, print and print (there are more)
+puts will print the text with a newline character, puts pushes a newline  charcter at the end (puts nill on different line)
+print - does not put new character on different line 
+p - will print a value and return that same value (nut will mot put a newline in even with \n)
+**********************************************************************************************
+if statements will only run if true
+****************************************
+case statments use a varible and apple it after the word when 
+helpfuly when doing a lot of the same coding and i guess if you didnt know what an array always
+*************************************************8
+looping is supposed to be broken if infinite with control - c but it never works
+count =  count + 1 , set whatever varible to 0 outside of while statement 
+while (condition)  then do then function then end 
+loops will break when conditon is met, or it will break your ide and you will lose all your notes again
++= , *= , /= and even %= 
+its not great when there is a typo in the insutrctions to learning coding 
+i wish i didnt lose all my good notes 
+*************************************************
+loop do intends to run forever 
+while do just happens to run forever under certian conditions 
+they do not !=
+the Repetition statment of until is the inverse of while 
+EX: do this while this is this way vs. do this until this is this way
+until = while-if-not 
+unless = if_not
+what happens if the condtion is not met (whether that is until, unless, while or loop) it will run the code unsude the block again and again. once the condtion is met it will run whateever code is written outside the block because it broke free. 
+Integer.times and loop are decendants of the while...do...end Repetition statments 
+they allow everything to communiate more effectively. 
+******************************************************************************
